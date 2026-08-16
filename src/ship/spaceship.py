@@ -1,3 +1,16 @@
+"""
+Spaceship
+
+Representa a nave espacial.
+
+A nave pode equipar diferentes armas e receber modificadores
+dinamicamente.
+
+Padrão utilizado: Decorator.
+
+"""
+
+
 from weapons.weapon import Weapon
 
 class Spaceship:

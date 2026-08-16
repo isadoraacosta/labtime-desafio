@@ -1,3 +1,14 @@
+
+"""
+EnergyCore
+
+Responsável por controlar a energia da nave e notificar os sistemas
+observadores quando ocorre uma alteração no nível de energia.
+
+Padrão utilizado: Observer.
+
+"""
+
 class EnergyCore:
     def __init__(self):
         self.energy = 100
@@ -16,5 +27,7 @@ class EnergyCore:
         self.notify()   
 
     def take_damage(self, damage):
-    print(f"A nave sofreu {damage} de dano.")
-    self.reduce_energy(damage)
+        print(f"A nave sofreu {damage} de dano.")
+        self.reduce_energy(damage)
+        if self.energy < 0:
+            self.energy = 0
