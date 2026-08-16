@@ -198,3 +198,21 @@ Laser disparado.
 + Dano de fogo.
 + Perfuração de blindagem.
 ```
+
+---
+
+# Evidências
+
+Abaixo estão alguns exemplos da execução do sistema no terminal.
+
+## Testes gerais
+
+### Execução do programa
+
+![Teste 1](![alt text](image.png))
+
+![Teste 1](![alt text](image-2.png))
+ 
+ 
+
+---
