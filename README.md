@@ -209,9 +209,9 @@ Abaixo estão alguns exemplos da execução do sistema no terminal.
 
 ### Execução do programa
 
-![Teste 1](![alt text](image.png))
+![alt text](image-3.png)
 
-![Teste 1](![alt text](image-2.png))
+![alt text](image-4.png)
  
  
 
